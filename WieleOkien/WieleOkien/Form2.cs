@@ -23,17 +23,11 @@ namespace WieleOkien
         }
         public string Liczba1{ get; set; }
         public string Liczba2 { get; set; }
-
-
-
         private void Wynik_Click(object sender, EventArgs e)
-        {            
+        {
             this.Liczba1 = L1.Text;
             this.Liczba2 = L2.Text;
             this.Close();
         }
-
-
-        
     }
 }
